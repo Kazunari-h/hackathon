@@ -1,4 +1,6 @@
-languageCode = "en-us"
+languageCode = "ja-JP"
 title = "hackathon"
-theme = "Lunacy"
 baseURL = "https://kazunari-h.github.io/hackathon"
+name = "hackathon"
+description = "hackathon"
+theme = "Lunacy"

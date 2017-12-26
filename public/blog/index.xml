@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackathon</title>
-    <link>https://kazunari-h.github.io/hackathon/</link>
-    <description>Recent content on hackathon</description>
+    <title>Blogs on hackathon</title>
+    <link>https://kazunari-h.github.io/hackathon/blog/</link>
+    <description>Recent content in Blogs on hackathon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Tue, 26 Dec 2017 17:08:28 +0900</lastBuildDate>
     
-	<atom:link href="https://kazunari-h.github.io/hackathon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kazunari-h.github.io/hackathon/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       <pubDate>Tue, 26 Dec 2017 17:08:28 +0900</pubDate>
       
       <guid>https://kazunari-h.github.io/hackathon/blog/hello/</guid>
-      <description> Coming Soon </description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://kazunari-h.github.io/hackathon/post/welcome/</link>
-      <pubDate>Tue, 26 Dec 2017 16:53:06 +0900</pubDate>
-      
-      <guid>https://kazunari-h.github.io/hackathon/post/welcome/</guid>
       <description> Coming Soon </description>
     </item>
     
