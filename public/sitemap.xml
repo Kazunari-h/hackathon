@@ -3,29 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kazunari-h.github.io/hackathon/blog/hello/</loc>
-    <lastmod>2017-12-26T17:08:28+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kazunari-h.github.io/hackathon/post/welcome/</loc>
-    <lastmod>2017-12-26T16:53:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kazunari-h.github.io/hackathon/blog/</loc>
-    <lastmod>2017-12-26T17:08:28+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kazunari-h.github.io/hackathon/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kazunari-h.github.io/hackathon/post/</loc>
-    <lastmod>2017-12-26T16:53:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +14,6 @@
   
   <url>
     <loc>https://kazunari-h.github.io/hackathon/</loc>
-    <lastmod>2017-12-26T17:08:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
