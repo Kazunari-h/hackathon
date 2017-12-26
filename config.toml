@@ -1,5 +1,4 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "anybodyhome"
+title = "hackathon"
+theme = "aerial"
 baseURL = "https://kazunari-h.github.io/hackathon"
-canonifyurls = true
