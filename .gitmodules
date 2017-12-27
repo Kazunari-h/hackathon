@@ -1,0 +1,3 @@
+[submodule "themes/Lunacy"]
+	path = themes/Lunacy
+	url = https://github.com/christat/Lunacy.git
