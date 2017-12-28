@@ -44,6 +44,8 @@ jobs:
             rm -rf public/*
             sudo cp /usr/share/zoneinfo/Japan /etc/localtime
             hugo -D -E -F
+            git subtree add --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages --squash
+            git subtree push -f --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages
       - save_cache:
           key: hugo-cache-public-{{ epoch }}
           paths:
@@ -80,10 +82,3 @@ workflows:
       - build:
           requires:
             - checkout_code
-      - deploy:
-          filters:
-            branches:
-              only: master
-          requires:
-            - textlint
-            - build
