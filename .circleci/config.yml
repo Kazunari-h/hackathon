@@ -3,13 +3,13 @@ jobs:
   checkout_code:
     docker:
       - image: circleci/golang:1.8
-    working_directory: ~/hackathon
+    working_directory: ~/hackathon/
     steps:
       - checkout
       - save_cache:
           key: hugo-cache-{{ epoch }}
           paths:
-            - ~/hackathon
+            - ~/hackathon/
 
   textlint:
     docker:
@@ -32,7 +32,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.8
-    working_directory: ~/hackathon
+    working_directory: ~/hackathon/
     steps:
       - restore_cache:
           key: hugo-cache
@@ -52,12 +52,13 @@ jobs:
   deploy:
     machine:
       enabled: true
-    working_directory: ~/hackathon
+    working_directory: ~/hackathon/
     steps:
       - restore_cache:
           key: hugo-cache-public
       - run:
           command: |
+            cd ~/hackathon/
             git config --global user.name "CircleCI"
             git config --global user.email "circleci@example.com"
             git add --all
