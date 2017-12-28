@@ -55,11 +55,10 @@ jobs:
     working_directory: ~/hackathon/
     steps:
       - restore_cache:
-          key: hugo-cache-public
+          key: hugo-cache
       - run:
           command: |
             pwd
-            cd ~/hackathon/
             git config --global user.name "CircleCI"
             git config --global user.email "circleci@example.com"
             git add --all
