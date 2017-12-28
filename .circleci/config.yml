@@ -66,7 +66,7 @@ jobs:
             git add --all
             git commit -m "${CIRCLE_BRANCH} (Circle CI)"
             git subtree add --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages --squash
-            git subtree push -f --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages
+            git subtree push --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages
 
 workflows:
   version: 2
