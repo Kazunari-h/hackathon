@@ -48,7 +48,7 @@ jobs:
             git config --global user.email "kazunario456@gmail.com"
             git config --global user.name "Kazunari-h"
             git commit -m "update pages"
-            git subtree push --prefix=public git@github.com:Kazunari-h/hackathon.git gh-pages
+            git subtree push --prefix=public https://github.com/Kazunari-h/hackathon.git gh-pages
       - save_cache:
           key: hugo-cache-public-{{ epoch }}
           paths:
